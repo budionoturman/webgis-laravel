@@ -1,0 +1,91 @@
+body{
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* bootstrao style override start */
+.bg-primary{
+  background-color: #3d64db !important;
+}
+.btn-primary{
+  background-color: #3d64db;
+}
+
+/* .btn:hover{ background-color: rgb(255, 145, 0);}
+
+a{ color: rgb(255, 115, 0);}
+a:hover{ color: rgb(255, 145, 0);} */
+a:link{text-decoration: none;}
+
+.footer {
+  color: #fff;
+}
+
+a:link {
+    text-decoration: none;
+}
+/* bootstrap style override end */
+
+
+/* form login and registration style start */
+.form-signin {
+    padding: 15px;
+  }
+  
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-top: 10px;
+}
+
+.form-signin input[type="password"] {
+  margin-top: 10px;
+}
+
+.form-registration input[name="name"] {
+  margin-top: 10px;
+}
+.form-registration input[name="username"] {
+  margin-top: 10px;
+}
+.form-registration input[name="email"] {
+  margin-top: 10px;
+}
+
+.form-registration input[name="password"] {
+  margin-top: 10px;
+}
+/* Form Login and Registration style end */
+
+
+/* Pagination style start */
+/* .pagination > li > a,
+.pagination > li > span {
+  color: rgb(255, 115, 0);
+  transition: transform.2s;
+}
+.pagination > li > a:hover{
+  color : orange;
+  transform : scale(1.1);
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    background-color: rgb(255, 115, 0);;
+    border-color: rgb(255, 115, 0);;
+} */
+/* Pagination style end */
+
+
+/* Home page hero image start */
+
+/* Home page hero image end */
